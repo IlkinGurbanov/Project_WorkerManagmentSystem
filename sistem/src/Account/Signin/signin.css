@@ -1,0 +1,67 @@
+/* RegisterForm.signin_css */
+
+.signin_maincontainer{
+    padding-top: 10%;
+}
+.signin_register-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.signin_h2 {
+    text-align: center;
+}
+
+
+.signin_textemailpassword{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* input[type="radio"]{ */
+    /* width: 100%; */
+    /* margin-bottom: 10px;
+    padding: 10px; */
+    /* border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline;
+    margin: 0; */
+/* } */
+.signin_button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.signin_3s ease;
+}
+
+.signin_button:hover {
+    background-color: #296fba;
+}
+
+.signin_radiobtn{
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin_lbltbn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin_none{
+    display: inline;
+    font-size: 15px;
+}

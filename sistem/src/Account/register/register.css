@@ -1,0 +1,97 @@
+/* RegisterForm.register_css */
+
+.register_maincontainer{
+    padding-top: 5%;
+    height: auto;
+}
+.register_register-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.register_h2 {
+    text-align: center;
+}
+
+/* input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+} */
+.register_textemailpassword{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.register_button { 
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.register_3s ease;
+}
+
+.register_button:hover {
+    background-color: #296fba;
+}
+
+.register_radiobtn{
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* width: 100%; */
+    /* margin-bottom: 10px;
+    padding: 10px; */
+    /* border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline;
+    margin: 0; */
+}
+.register_lbltbn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register_none{
+    display: inline;
+    font-size: 15px;
+}
+.register_box{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.register_check{
+    padding: 0;
+    margin: 0;
+    width: 34px;
+}
+.register_infoicon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.infotext{
+    font-size: 17px;
+}
